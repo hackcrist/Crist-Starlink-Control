@@ -1,0 +1,19 @@
+# Ignorar carpeta de logs generados por el script
+logs/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos de compilación Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar entornos virtuales
+env/
+.venv/
+
+# Ignorar archivos del sistema (macOS/Windows)
+.DS_Store
+Thumbs.db
