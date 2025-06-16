@@ -1,6 +1,6 @@
 # 🌐 Crist-Starlink-Control v1.0
-
-Herramienta profesional para auditar, monitorear y administrar sistemas Starlink desde consola (Linux o Termux).
+Herramienta profesional en Python para auditar, monitorear y administrar sistemas Starlink desde consola (Linux o Termux).
+---
 
 ## 🚀 ¿Qué hace esta herramienta?
 
@@ -30,10 +30,40 @@ pip install requests colorama pyfiglet
 
 ---
 
-## 🧪 Uso
+## 📦 Instalación desde GitHub
 
 ```bash
-python3 crist_starlink.py
+git clone https://github.com/hackcrist/Crist-Starlink-Control.git
+
+cd Crist-Starlink-Control
+
+bash install.sh
+```
+
+---
+
+## 🧪 Comandos disponibles
+
+```bash
+1️⃣   Ver estado del sistema  
+    📶 Muestra si Starlink está conectado  
+    🕒 Uptime (tiempo en línea)  
+    🌫️ Porcentaje de obstrucción  
+
+2️⃣   Reiniciar router (simulado)  
+    ♻️ Prepara función para futuro endpoint real de reinicio  
+
+3️⃣   Ver latencia de red  
+    📡 Realiza ping a 8.8.8.8 y muestra promedio  
+
+4️⃣   Guardar log actual  
+    📝 Crea archivo JSON con datos técnicos en `/logs`  
+
+5️⃣   Modo diagnóstico completo  
+    🔎 Ejecuta estado + ping + guardado de log en un paso  
+
+6️⃣   Salir del programa  
+    ❌ Cierra el menú y termina la ejecución
 ```
 
 ---
@@ -46,4 +76,4 @@ python3 crist_starlink.py
 ---
 
 By Crist Hack - Solo para uso ético  
-Apache License 2.0
+Licencia Apache 2.0
